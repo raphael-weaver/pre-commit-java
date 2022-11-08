@@ -1,4 +1,4 @@
-FROM openjdk:20-jdk-oraclelinux7
+FROM bellsoft/liberica-openjdk-alpine-musl:17
 
 RUN apk add --update --no-cache wget unzip curl bash jq
 RUN mkdir -p /opt
