@@ -1,4 +1,4 @@
-FROM openjdk:19-jdk-alpine3.16
+FROM openjdk:20-jdk-oraclelinux7
 
 RUN apk add --update --no-cache wget unzip curl bash jq
 RUN mkdir -p /opt
