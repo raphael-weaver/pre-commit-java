@@ -1,4 +1,4 @@
-FROM openjdk:17-alpine
+FROM openjdk:19-jdk-alpine3.16
 
 RUN apk add --update --no-cache wget unzip curl bash jq
 RUN mkdir -p /opt
